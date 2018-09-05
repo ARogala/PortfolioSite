@@ -26,8 +26,8 @@ const Layout = ({children, data}) => (
 			</label>
 			<ul className="nav__list">
 				<li className="nav__item-1"><Link to="/" className="nav__link">Home</Link></li>
-				<li className="nav__item-2"><Link to="/about/" className="nav__link">About Me</Link></li>
-				<li className="nav__item-3"><Link to="/portfolio/" className="nav__link">Portfolio</Link></li>
+				<li className="nav__item-2"><Link to="/portfolio/" className="nav__link">Portfolio</Link></li>
+				<li className="nav__item-3"><Link to="/about/" className="nav__link">About Me</Link></li>
 			</ul>
 		</nav>
 		<header className="header">
