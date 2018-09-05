@@ -6,8 +6,8 @@ import PropTypes from 'prop-types';
 import styles from './index.css';
 import responsiveStyles from './index-responsive.css';
 
-import icon from '../img/Icon2.png';
-import iconSmall from '../img/Icon2Small.png';
+import icon from '../img/Icon.png';
+import iconSmall from '../img/IconSmall.png';
 import gitIcon from '../img/github.png';
 import linkedinIcon from '../img/linkedin.png';
 
