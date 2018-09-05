@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors A Rogala
+ * @date    4/26/18
+ * @version 1.0
+ */
+/*apply a browser reset * only selects element so must select psudo elements as well.
+Apply border-box to make all elements account for any border and padding in the values
+specified for an element's width and height. ex If an element's width is set to 100 pixels,
+that 100 pixels will include any border or padding added, and the content box will shrink
+to absorb that extra width. This typically makes it much easier to size elements.*/
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit;
+}
+
+/*set the root fontsize to 10px which is 62.5% of the default browser 16px
+this defines what 1rem is*/
+html {
+  font-size: 62.5%;
+}
+
+body {
+	box-sizing: border-box;
+	max-width: 100rem;
+	margin-left: auto;
+	margin-right: auto;
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	/*global font size of 16px*/
+	font-size: 1.6rem;
+}
+
+/*nav styles*/
+.nav {
+	width: 100%;
+}
+
+.nav__checkbox {
+	display: none;
+}
+
+.nav__button {
+	display: none;
+}
+
+.nav__list {
+	display: flex;
+	flex-wrap: wrap;
+	list-style-type: none;
+	border-bottom: 4px solid #7d97ad;
+}
+
+.nav__item-1 {
+	order: 1;
+	width: 32%;
+	margin: 0 auto 0 auto;
+}
+
+.nav__item-2 {
+	order: 2;
+	width: 32%;
+	margin: 0 auto 0 auto;
+}
+
+.nav__item-3 {
+	order: 3;
+	width: 32%;
+	margin: 0 auto 0 auto;
+}
+
+
+.nav__link:link, .nav__link:visited {
+	text-decoration: none;
+	color: #000;
+	display: inline-block;
+	width: 100%;
+	line-height: 24px;
+	padding: 24px;
+	text-align: center;
+	text-transform: uppercase;
+	/*animation*/
+	background: linear-gradient(145deg, transparent 0%, transparent 50%, #7d97ad 50%);
+	background-size: 280%;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+
+.nav__link:hover {
+	/*animation*/
+	background-position: 100%;
+	font-weight: 900;
+	color: #fff;
+}
+/*END nav styles*/
+
+/*header styles*/
+.header {
+	width: 100%;
+	border-bottom: 4px solid #7d97ad;
+	position: relative;
+}
+
+.header__logo-box {
+	margin: 1rem;
+}
+
+.header__logo {
+	width: 15%;
+	height: auto;
+	-webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+	clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+}
+
+.header__text-box {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+}
+
+.header__title {
+	text-align: right;
+	font-size: 4rem;
+	font-weight: 900;
+	padding-right: 1rem;
+}
+
+.header__tagline {
+	text-align: right;
+	font-size: 3rem;
+	font-weight: 700;
+	padding-right: 1rem;
+}
+/*END header styles*/

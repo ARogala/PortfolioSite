@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors a rogala
+ * @date    4/27/18
+ * @version 1.0
+ */
+ /*default display larger images*/
+.header__logo--2 {
+	display: none;
+}
