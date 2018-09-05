@@ -8,6 +8,8 @@ import responsiveStyles from './index-responsive.css';
 
 import icon from '../img/Icon2.png';
 import iconSmall from '../img/Icon2Small.png';
+import gitIcon from '../img/github.png';
+import linkedinIcon from '../img/linkedin.png';
 
 const Layout = ({children, data}) => (
 	<div>
@@ -31,7 +33,7 @@ const Layout = ({children, data}) => (
 		<header className="header">
 			<div className="header__logo-box">
 				<img className="header__logo header__logo--1" src={icon} alt="Rogala Designs Logo" />
-				<img className="header__logo header__logo--2" src="" alt="Rogala Designs Logo" />
+				<img className="header__logo header__logo--2" src={iconSmall} alt="Rogala Designs Logo" />
 			</div>
 			<div className="header__text-box">
 				<h1 className="header__title">
@@ -43,8 +45,12 @@ const Layout = ({children, data}) => (
 			</div>
 		</header>
 		{children()}
-		<footer>
-			<p>Contact Me:</p>
+		<footer className="footer">
+			<div className="footer__links-box">
+				<p>Find me on:</p>
+				<a href="https://github.com/ARogala" target="_blank"><img src={gitIcon} alt="GitHub" className="footer__link-logo"/></a>
+				<a href="https://www.linkedin.com/in/andrew-rogala" target="_blank"><img src={linkedinIcon} alt="LinkedIn" className="footer__link-logo"/></a>
+			</div>
 		</footer>
 	</div>
 );
