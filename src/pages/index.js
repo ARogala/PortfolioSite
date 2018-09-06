@@ -47,7 +47,13 @@ export default () => (
 			<div className="featured-work__description-2">
 				<h3 className="heading-tertiary3">Favorite Places Map</h3>
 				<a href="https://arogala.github.io/FavoritePlacesMap/" className="featured-work__link">Check out my favorite places</a>
-				<p className="featured-work__description-p">
+				<p className="featured-work__description-p">My Favorite Places Map was built for Udacity's Front End Nano-degree program.
+				Of course I went above and beyond the original specifications.
+				This app features a filterable list containing some of my favorite locations.
+				Each location is displayed as a marker on a map, and clicking the marker displays an
+				information window about the location. Each information window contains a link the locations foursquare page,
+				a link to search the location on google maps, the locations address, and a street view of the location.
+				<a href="https://github.com/ARogala/FavoritePlacesMap">Favorite Places github</a>
 				</p>
 			</div>
 
@@ -57,7 +63,11 @@ export default () => (
 			<div className="featured-work__description-3">
 				<h3 className="heading-tertiary3">Memory Game</h3>
 				<a href="https://andrewrogalamemorygame.surge.sh/" className="featured-work__link">Check out my game</a>
-				<p className="featured-work__description-p"></p>
+				<p className="featured-work__description-p">The memory game was built for Udacity's Front End Nano-degree program.
+				I made sure to go beyond the basic requirements and added a settings page to change the tiles and color theme around.
+				The game was fun to build and works well on both desktop and mobile devices. I play it from time to time myself and my
+				nieces love it. Hope you enjoy it as well.
+				<a href="https://github.com/ARogala/fend-project-memory-game">Memory Game github</a></p>
 			</div>
 
 		</section>

@@ -37,7 +37,9 @@ export default () => (
 			The idea was to have a custom home page for any internet browser on the computer.
 			It was designed for desktop and laptop computers specifically. Features include:
 			three search bars, personalized slide show, a custom clock with date, and popular icon links.
-			Check it out and feel free to use and modify to your liking. Requires some basic knowledge to set up. Updates coming soon.
+			Check it out and feel free to use and modify to your liking. Requires some basic knowledge to set up. This was my first
+			github project and as such I have learned a lot since then. I will admit it needs some work but I still use the
+			program eveyday and like the concept. Updates coming soon.
 			</p>
 		</div>
 
