@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './index.css';
+import featuredWorkStyles from './featured-work.css';
 
 import videoWEBM from '../img/Hello-World.webm';
 import videoMP4 from '../img/Hello-World.mp4';
