@@ -9,3 +9,71 @@
 .header__logo--2 {
 	display: none;
 }
+
+/*mobile and tablet size*/
+@media screen and (max-width: 800px) {
+
+	/*display and position the nav button*/
+	.nav {
+		position: relative;
+		height: 5rem;
+	}
+	.nav__checkbox {
+		position: absolute;
+		top: 1rem;
+		right: 1rem;
+
+	}
+	.nav__button {
+		display: initial;
+		position: absolute;
+		z-index: 20;
+		top: 1rem;
+		right: 1rem;
+
+	}
+
+	.nav__button:hover {
+		cursor: pointer;
+	}
+
+	/*hide/transform the list*/
+
+	.nav__list {
+		z-index: 10;
+		position: absolute;
+		display: list-item;
+		width: 100%;
+		height: 100vh;
+		background-color: rgba(1,179,228,1);
+
+		/* This trasform moves the list off canvas. */
+	    -webkit-transform: translate(-100%, 0);
+	    transform: translate(-100%, 0);
+	    /* animate the list*/
+	    transition: transform 0.3s ease;
+	}
+
+	/*when checkbox checked unhide/translate list*/
+	.nav__checkbox:checked ~ .nav__list {
+		-webkit-transform: translate(0, 0);
+    	transform: translate(0, 0);
+	}
+
+	.nav__item-1 {
+		margin: 5rem auto 0 auto;
+		width: 45%;
+	}
+
+	.nav__item-2 {
+		width: 45%;
+	}
+
+	.nav__item-3 {
+		width: 45%;
+	}
+
+	.nav__item-4 {
+		width: 45%;
+	}
+}
