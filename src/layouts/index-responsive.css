@@ -76,4 +76,41 @@
 	.nav__item-4 {
 		width: 45%;
 	}
+
+	/*header mobile*/
+	/*adjust header logo size*/
+	.header__logo {
+		width: 20%;
+	}
+	/*switch images on smaller screens*/
+
+	.header__logo--1 {
+		display: none;
+	}
+
+	.header__logo--2 {
+		display: inline-block;
+	}
+
+
+}
+
+/*minor break point for fonts*/
+
+@media screen and (max-width: 650px) {
+	.header__title {
+		font-size: 3rem;
+	}
+
+	.header__tagline {
+		font-size: 2rem;
+	}
+}
+
+/*minor adjustment icon*/
+@media screen and (max-width: 450px) {
+	/*adjust header logo size*/
+	.header__logo {
+		width: 30%;
+	}
 }
