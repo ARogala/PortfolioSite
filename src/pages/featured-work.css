@@ -54,6 +54,27 @@
 	margin: 0 auto 0 auto;
 }
 
+.featured-work__project-4 {
+	/*no image yet*/
+}
+
+.featured-work__description-4 {
+	order: 8;
+	width: 45%;
+	margin: 0 auto 0 auto;
+}
+
+.featured-work__project-5 {
+	/*no image yet*/
+}
+
+.featured-work__description-5 {
+	order: 9;
+	width: 45%;
+	margin: 0 auto 0 auto;
+}
+
+
 .featured-work__img {
 	height: 100%;
 	width: 100%;
