@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './index.css';
 import responsiveStyles from './index-responsive.css';
 import featuredWorkStyles from './featured-work.css';
+import featuredWorkStylesResponsive from './featured-work-responsive.css';
 
 import videoWEBM from '../img/Hello-World.webm';
 import videoMP4 from '../img/Hello-World.mp4';

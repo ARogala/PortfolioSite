@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+
+@media screen and (max-width: 800px) {
+	/*change featured work layout for mobile and tablet*/
+	.heading-tertiary2 {
+		text-align: center;
+	}
+	.featured-work__project-1 {
+		order: 2;
+		width: 75%;
+		margin: 0 auto 0 auto;
+	}
+
+	.featured-work__description-1 {
+		order: 3;
+		width: 75%;
+		margin: 0 auto 0 auto;
+	}
+
+	.featured-work__project-2 {
+		order: 4;
+		width: 75%;
+		margin: 0 auto 0 auto;
+	}
+
+	.featured-work__description-2 {
+		order: 5;
+		width: 75%;
+		margin: 0 auto 0 auto;
+	}
+
+	.featured-work__project-3 {
+		order: 6;
+		width: 75%;
+		margin: 0 auto 0 auto;
+	}
+
+	.featured-work__description-3 {
+		order: 7;
+		width: 75%;
+		margin: 0 auto 0 auto;
+	}
+
+	.featured-work__project-4 {
+		/*no image yet*/
+	}
+
+	.featured-work__description-4 {
+		order: 8;
+		width: 75%;
+		margin: 0 auto 0 auto;
+	}
+
+	.featured-work__project-5 {
+		/*no image yet*/
+	}
+
+	.featured-work__description-5 {
+		order: 9;
+		width: 75%;
+		margin: 0 auto 0 auto;
+	}
+}
