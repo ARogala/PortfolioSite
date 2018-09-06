@@ -50,12 +50,15 @@ export default () => (
 				<h3 className="heading-tertiary3">Favorite Places Map</h3>
 				<a href="https://arogala.github.io/FavoritePlacesMap/" className="featured-work__link">Check out my favorite places</a>
 				<p className="featured-work__description-p">My Favorite Places Map was built for Udacity's Front End Nano-degree program.
-				Of course I went above and beyond the original specifications.
+				Of course, I went above and beyond the original specifications.
+				This project was built with React, Google Maps JavaScript API, and the Foursquare Places API.<br/><br/>
 				This app features a filterable list containing some of my favorite locations.
-				Each location is displayed as a marker on a map, and clicking the marker displays an
-				information window about the location. Each information window contains a link the locations foursquare page,
-				a link to search the location on google maps, the locations address, and a street view of the location.
-				<a href="https://github.com/ARogala/FavoritePlacesMap">Favorite Places github</a>
+				Each location is displayed as a marker on the map, and clicking the marker displays an information window
+				about the location. Each information window contains a link to the locations Foursquare page,
+				a link to search the location on Google Maps, the locations address, and a street view of the location.<br/><br/>
+				I hope you enjoy this app as much as I enjoyed making it. In the future I plan to make this a map share
+				application where you can share your favorite places with friends and family.<br/>
+				<a href="https://github.com/ARogala/FavoritePlacesMap">View Favorite Places on GitHub</a>
 				</p>
 			</div>
 
@@ -66,10 +69,10 @@ export default () => (
 				<h3 className="heading-tertiary3">Memory Game</h3>
 				<a href="https://andrewrogalamemorygame.surge.sh/" className="featured-work__link">Check out my game</a>
 				<p className="featured-work__description-p">The memory game was built for Udacity's Front End Nano-degree program.
-				I made sure to go beyond the basic requirements and added a settings page to change the tiles and color theme around.
-				The game was fun to build and works well on both desktop and mobile devices. I play it from time to time myself and my
-				nieces love it. Hope you enjoy it as well.
-				<a href="https://github.com/ARogala/fend-project-memory-game">Memory Game github</a></p>
+				I made sure to go beyond the basic requirements and added a settings page
+				to change the tile and color theme around. The game was fun to build and works well on both
+				desktop and mobile devices. I play it from time to time and my nieces love it. Hope you enjoy it as well.<br/>
+				<a href="https://github.com/ARogala/fend-project-memory-game">View Memory Game on GitHub</a></p>
 			</div>
 
 		</section>
