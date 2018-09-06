@@ -34,6 +34,7 @@ body {
 	font-weight: 400;
 	/*global font size of 16px*/
 	font-size: 1.6rem;
+	margin-bottom: 8rem;
 }
 
 /*nav styles*/
@@ -141,12 +142,15 @@ body {
 
 /*Footer styles*/
 .footer {
-	position: absolute;
+	/*position: absolute;*/
+	position: fixed;
 	bottom: 0;
+	left: 0;
 	width: 100%;
-	max-width: 100rem;
+	/*max-width: 100rem;*/
 	padding: 4rem 0 4rem 0;
-	border-top: 4px solid #7d97ad;
+	/*border-top: 4px solid #7d97ad;*/
+	background-color: #7d97ad;
 }
 
 .footer__links-box {
