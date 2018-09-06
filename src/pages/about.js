@@ -1,7 +1,7 @@
 import React from "react";
 
 export default () => (
-	<main>
+	<main role="main">
 		<section className="featured-work">
 			<div className="featured-work__description-1" style={{width: '70%'}}>
 				<h3 className="heading-tertiary3">Welcome</h3>

@@ -4,8 +4,8 @@ import featuredWorkStyles from './featured-work.css';
 
 import videoWEBM from '../img/Hello-World.webm';
 import videoMP4 from '../img/Hello-World.mp4';
-import project1Pic from '../img/YBArtSmall.png';
-import project2Pic from '../img/FavoritePlacesSmall.png';
+import project1Pic from '../img/YBArt.png';
+import project2Pic from '../img/FavoritePlaces.png';
 import project3Pic from '../img/MemoryGame.png';
 
 export default () => (
