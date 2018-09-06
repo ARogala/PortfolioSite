@@ -1,0 +1,30 @@
+@media screen and (max-width: 800px) {
+	/*adjust video height*/
+	.hero {
+		height: 20vh;
+	}
+}
+
+/*minor break point for fonts*/
+
+@media screen and (max-width: 650px) {
+
+	.heading-tertiary1 {
+		font-size: 1.7rem;
+	}
+	.heading-tertiary2 {
+		font-size: 1.7rem;
+	}
+	.heading-tertiary3 {
+		font-size: 1.7rem;
+	}
+
+}
+
+/*minor adjustment to video*/
+@media screen and (max-width: 450px) {
+	/*adjust video height*/
+	.hero {
+		height: 15vh;
+	}
+}
