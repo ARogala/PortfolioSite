@@ -9,7 +9,11 @@ module.exports = {
 			resolve: 'gatsby-plugin-robots-txt',
 			options: {
 				host: 'https://andrewrogala.surge.sh',
-				policy: [{userAgent: '*', allow: '/'}]
+				env: {
+					production: {
+						policy: [{userAgent: '*', allow: '/'}]
+					}
+				}
 			}
 		},
 		`gatsby-plugin-react-helmet`,
