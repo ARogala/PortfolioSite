@@ -52,8 +52,8 @@ const Layout = ({children, data}) => (
 		<footer className="footer">
 			<div className="footer__links-box">
 				<p>Find me on:</p>
-				<a href="https://github.com/ARogala" target="_blank"><img src={gitIcon} alt="GitHub" className="footer__link-logo"/></a>
-				<a href="https://www.linkedin.com/in/andrew-rogala" target="_blank"><img src={linkedinIcon} alt="LinkedIn" className="footer__link-logo"/></a>
+				<a href="https://github.com/ARogala" target="_blank" rel="noopener"><img src={gitIcon} alt="GitHub" className="footer__link-logo"/></a>
+				<a href="https://www.linkedin.com/in/andrew-rogala" target="_blank" rel="noopener"><img src={linkedinIcon} alt="LinkedIn" className="footer__link-logo"/></a>
 			</div>
 		</footer>
 	</div>
