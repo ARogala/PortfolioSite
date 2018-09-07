@@ -11,6 +11,10 @@ import iconSmall from '../img/IconSmall.png';
 import gitIcon from '../img/github.png';
 import linkedinIcon from '../img/linkedin.png';
 
+function hideNav() {
+	document.getElementById('navi-toggle').checked = false;
+}
+
 const Layout = ({children, data}) => (
 	<div>
 		<Helmet>
@@ -25,9 +29,9 @@ const Layout = ({children, data}) => (
 				<i className="fas fa-bars fa-2x"></i>
 			</label>
 			<ul className="nav__list">
-				<li className="nav__item-1"><Link to="/" className="nav__link">Home</Link></li>
-				<li className="nav__item-2"><Link to="/portfolio/" className="nav__link">Portfolio</Link></li>
-				<li className="nav__item-3"><Link to="/about/" className="nav__link">About Me</Link></li>
+				<li className="nav__item-1"><Link to="/" className="nav__link" onClick={() => hideNav()}>Home</Link></li>
+				<li className="nav__item-2"><Link to="/portfolio/" className="nav__link" onClick={() => hideNav()}>Portfolio</Link></li>
+				<li className="nav__item-3"><Link to="/about/" className="nav__link" onClick={() => hideNav()}>About Me</Link></li>
 			</ul>
 		</nav>
 		<header className="header">
