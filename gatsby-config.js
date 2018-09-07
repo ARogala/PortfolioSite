@@ -1,9 +1,19 @@
 
 module.exports = {
 	siteMetadata: {
-		title: 'Andrew Rogala Web Devloper'
+		title: 'Portfolio',
+		siteUrl: 'https://andrewrogala.surge.sh',
 	},
-	plugins: [`gatsby-plugin-react-helmet`]
-}
+	plugins: [
+		{
+			resolve: 'gatsby-plugin-robots-txt',
+			options: {
+				host: 'https://andrewrogala.surge.sh',
+				policy: [{userAgent: '*', allow: '/'}]
+			}
+		},
+		`gatsby-plugin-react-helmet`,
+	],
+};
 
 
