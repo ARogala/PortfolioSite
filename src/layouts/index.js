@@ -10,6 +10,7 @@ import icon from '../img/Icon.png';
 import iconSmall from '../img/IconSmall.png';
 import gitIcon from '../img/github.png';
 import linkedinIcon from '../img/linkedin.png';
+import tabIcon from '../img/tabIcon.png';
 
 function hideNav() {
 	document.getElementById('navi-toggle').checked = false;
@@ -22,6 +23,7 @@ const Layout = ({children, data}) => (
 			<title>{data.site.siteMetadata.title}</title>
 			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous"/>
 			<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet"/>
+			<link rel="icon" href={tabIcon} />
 			<meta name="description" content="Portfolio site for web developer Andrew Rogala" />
 		</Helmet>
 		<nav className="nav">
