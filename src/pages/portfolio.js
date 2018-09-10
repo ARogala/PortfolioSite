@@ -56,7 +56,8 @@ export default () => (
 				<p className="featured-work__description-p">I wrote this timer to demonstrate knowledge of the JavaScript language.
 				Specifically, this timer has been coded with the modular design pattern and makes use of DOM manipulation
 				in vanilla JavaScript. The algorithm was interesting and fun to figure out.
-				This little app works well on desktop and mobile. Tested on Android Chrome and Firefox only.<br/>
+				Unfortunately, on mobile when the phone goes to sleep the script stops thus
+				causing the timer to lose its accuracy. I am looking into a fix for this.<br/>
 				<a href="https://github.com/ARogala/Timer">View Timer on GitHub</a></p>
 			</div>
 
