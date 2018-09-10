@@ -52,11 +52,11 @@ export default () => (
 			</div>
 			<div className="featured-work__description-3">
 				<h3 className="heading-tertiary3">JavaScript Timer</h3>
-				<a href="https://codepen.io/Drew7865/pen/EErMvL" className="featured-work__link">Check out my timer on CodePen</a>
+				<a href="https://arogalatimer.surge.sh/" className="featured-work__link">Check out my timer</a>
 				<p className="featured-work__description-p">I wrote this timer to demonstrate knowledge of the JavaScript language.
 				Specifically, this timer has been coded with the modular design pattern and makes use of DOM manipulation
 				in vanilla JavaScript. The algorithm was interesting and fun to figure out.
-				I plan to add this to my home page project as well as updating some of the timer’s CSS.<br/>
+				This little app works well on desktop and mobile. Tested on Android Chrome and Firefox only.<br/>
 				<a href="https://github.com/ARogala/Timer">View Timer on GitHub</a></p>
 			</div>
 
