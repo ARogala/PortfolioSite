@@ -1,8 +1,10 @@
 import React from "react";
 
 import project1Pic from '../img/Frogger.png';
-import project2Pic from '../img/CustomHomePage.png';
-import project3Pic from '../img/Timer.jpg';
+import project2Pic from '../img/MemoryGame.png';
+import project3Pic from '../img/timer.png';
+import project4Pic from '../img/Timer.jpg';
+import project5Pic from '../img/CustomHomePage.png';
 
 export default () => (
 	<main role="main">
@@ -31,20 +33,16 @@ export default () => (
 			</div>
 
 			<div className="featured-work__project-2">
-				<img src={project2Pic} alt="Home Page Project" className="featured-work__img featured-work__img--1" />
+				<img src={project2Pic} alt="Memory Game" className="featured-work__img featured-work__img--1" />
 			</div>
 			<div className="featured-work__description-2">
-				<h3 className="heading-tertiary3">Custom Home Page</h3>
-				<a href="https://github.com/ARogala/PersonalHomePage" className="featured-work__link">Check out my project on GitHub</a>
-				<p className="featured-work__description-p">The Custom Home Page program was written in JavaScript, HTML, and CSS.
-				The idea was to have a custom home page for any internet browser on the computer.
-				It was designed for desktop and laptop computers specifically.<br/><br/>
-				Features include: three search bars, personalized slide show, a custom clock with date,
-				and popular icon links. Check it out and feel free to use and modify to your liking.
-				The program does require some basic knowledge to set up.<br/><br/>
-				This was the first piece of code I posted on GitHub and I have learned a lot since then.
-				I admit it needs some work, but I still use the program every day and like the concept. Updates coming soon.
-				</p>
+				<h3 className="heading-tertiary3">Memory Game</h3>
+				<a href="https://andrewrogalamemorygame.surge.sh/" className="featured-work__link">Check out my game</a>
+				<p className="featured-work__description-p">The memory game was built for Udacity's Front End Nano-degree program.
+				I made sure to go beyond the basic requirements and added a settings page
+				to change the tile and color theme around. The game was fun to build and works well on both
+				desktop and mobile devices. I play it from time to time and my nieces love it. Hope you enjoy it as well.<br/>
+				<a href="https://github.com/ARogala/fend-project-memory-game">View Memory Game on GitHub</a></p>
 			</div>
 
 			<div className="featured-work__project-3">
@@ -61,6 +59,9 @@ export default () => (
 				<a href="https://github.com/ARogala/Timer">View Timer on GitHub</a></p>
 			</div>
 
+			<div className="featured-work__project-4">
+				<img src={project4Pic} alt="StopWatch Project" className="featured-work__img featured-work__img--1" />
+			</div>
 			<div className="featured-work__description-4">
 				<h3 className="heading-tertiary3">JavaScript Stop Watch</h3>
 				<a href="https://codepen.io/Drew7865/pen/jvGVdg" className="featured-work__link">Check out my stop watch on CodePen</a>
@@ -74,23 +75,22 @@ export default () => (
 				<a href="https://github.com/ARogala/StopWatch">View Stop Watch on GitHub</a></p>
 			</div>
 
-			<div className="featured-work__description-5">
-				<h3 className="heading-tertiary3">Feed Reader</h3>
-				<a href="https://github.com/ARogala/ClientSideFeedReader" className="featured-work__link">Check out my feed reader on GitHub</a>
-				<p className="featured-work__description-p">I developed Client Side Feed Reader (CSFeedy)
-				as a fun and productive way to learn about AJAX in native JavaScript.
-				It utilizes <a href="https://rss2json.com/">rss2json.com</a> API for converting the RSS and Atom feeds to usable JSON objects.
-				Everything is coded with JavaScript, CSS, and HTML (BEM naming convention is used).<br/><br/>
-				All the feeds (and API Key) input get stored in the web browsers local storage.
-				The feeds can be backed up and restored in order to keep the data persistent in the event of clearing browser data.
-				This app only works in Chrome and Firefox.<br/><br/>
-				I admit this project still need a lot of UI and UX work,
-				as well as obvious error handling, and an upgrade to the fetch API.
-				However, there is still some good reusable code in there and I really like the concept of the app.
-				I actually plan to rewrite this in React, completely remove the rss2json dependency,
-				hopefully make it mobile friendly, and host it with <a href="https://surge.sh/">surge.sh</a></p>
+			<div className="featured-work__project-5">
+				<img src={project5Pic} alt="Home Page Project" className="featured-work__img featured-work__img--1" />
 			</div>
-
+			<div className="featured-work__description-5">
+				<h3 className="heading-tertiary3">Custom Home Page</h3>
+				<a href="https://github.com/ARogala/PersonalHomePage" className="featured-work__link">Check out my project on GitHub</a>
+				<p className="featured-work__description-p">The Custom Home Page program was written in JavaScript, HTML, and CSS.
+				The idea was to have a custom home page for any internet browser on the computer.
+				It was designed for desktop and laptop computers specifically.<br/><br/>
+				Features include: three search bars, personalized slide show, a custom clock with date,
+				and popular icon links. Check it out and feel free to use and modify to your liking.
+				The program does require some basic knowledge to set up.<br/><br/>
+				This was the first piece of code I posted on GitHub and I have learned a lot since then.
+				I admit it needs some work, but I still use the program every day and like the concept. Updates coming soon.
+				</p>
+			</div>
 		</section>
 	</main>
 );

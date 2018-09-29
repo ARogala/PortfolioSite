@@ -43,21 +43,25 @@
 	}
 
 	.featured-work__project-4 {
-		/*no image yet*/
-	}
-
-	.featured-work__description-4 {
 		order: 8;
 		width: 75%;
 		margin: 0 auto 0 auto;
 	}
 
+	.featured-work__description-4 {
+		order: 9;
+		width: 75%;
+		margin: 0 auto 0 auto;
+	}
+
 	.featured-work__project-5 {
-		/*no image yet*/
+		order: 10;
+		width: 75%;
+		margin: 0 auto 0 auto;
 	}
 
 	.featured-work__description-5 {
-		order: 9;
+		order: 11;
 		width: 75%;
 		margin: 0 auto 0 auto;
 	}
