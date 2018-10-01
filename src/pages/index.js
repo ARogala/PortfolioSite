@@ -1,5 +1,4 @@
 import React from 'react';
-import objectFitPolyfill from 'objectFitPolyfill';
 
 import styles from './index.css';
 import featuredWorkStyles from './featured-work.css';
@@ -17,7 +16,7 @@ export default () => (
 	<main role="main">
 		<section className="hero">
 			<div className="bg-video">
-				<video className="bg-video__content" data-object-fit="cover" autoPlay muted loop>
+				<video className="bg-video__content" autoPlay muted loop>
 					<source src={videoMP4} type="video/mp4" />
 					<source src={videoWEBM} type="viedo/webm" />
 				</video>

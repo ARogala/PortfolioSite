@@ -19,10 +19,30 @@
 }
 
 .bg-video__content {
+	position: absolute;
+    width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*Edge doesnt support object-fit*/
+/*.bg-video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	z-index: -1;
+	border-radius: 12px;
+}
+
+.bg-video__content {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
-}
+}*/
 
 .hero__text-box {
 	position: absolute;

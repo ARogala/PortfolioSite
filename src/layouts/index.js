@@ -60,6 +60,7 @@ const Layout = ({children, data}) => (
 			</div>
 		</footer>
 	</div>
+
 );
 
 
