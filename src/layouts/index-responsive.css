@@ -25,12 +25,7 @@
 
 	}
 	.nav__button {
-		display: initial;
-		position: fixed;
-		z-index: 20;
-		top: 1rem;
-		right: 1rem;
-
+		display: block;
 	}
 
 	.nav__button:hover {

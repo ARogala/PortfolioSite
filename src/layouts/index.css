@@ -49,6 +49,87 @@ body {
 
 .nav__button {
 	display: none;
+	position: fixed;
+	width: 5rem;
+	height: 5rem;
+	top: 1rem;
+	right: 1rem;
+	box-shadow: 0 1rem 2rem rgba(0,0,0, 0.2);
+	border-radius: 10px;
+	text-align: center;
+	z-index: 20;
+	background: rgb(204,223,250);
+	background: radial-gradient(circle, rgba(204,223,250,1) 0%, rgba(125,151,173,1) 100%);
+}
+
+/*
+	span is an inline element by default so set to inline-block
+	in order to apply height and width. this builds the center bar
+	of the nav button.
+*/
+.nav__icon {
+	display: inline-block;
+	top: 2.4rem;
+	height: 3.5px;
+	width: 4rem;
+	background-color: black;
+	position: relative;
+}
+
+/*
+	build out the top and bottom bars of the nav button
+	by inserting blank content before and after the
+	center bar and setting height and width
+*/
+
+.nav__icon::before,
+.nav__icon::after {
+	content: '';
+	display: inline-block;
+	height: 3.5px;
+	width: 4rem;
+	background-color: black;
+	position: absolute;
+
+	/*transition the rotate*/
+	-webkit-transition: transform .2s;
+	transition: transform .2s;
+}
+
+/*position the top and botton bars*/
+
+.nav__icon::after {
+	top: -1rem;
+	right: 0;
+}
+
+.nav__icon::before {
+	top: 1rem;
+	right: 0;
+}
+
+/*nav span animation*/
+.nav__checkbox:checked + .nav__button .nav__icon {
+	background-color: transparent;
+}
+/*by default things rotate about their center*/
+.nav__checkbox:checked + .nav__button .nav__icon::before {
+	top: 0;
+	/*360 + 45*/
+	transform: rotate(405deg);
+}
+
+.nav__checkbox:checked + .nav__button .nav__icon::after {
+	top: 0;
+	transform: rotate(-405deg);
+}
+
+.nav__button:hover .nav__icon::before {
+	top: 1.2rem;
+}
+
+.nav__button:hover .nav__icon::after {
+	top: -1.2rem;
 }
 
 .nav__list {
