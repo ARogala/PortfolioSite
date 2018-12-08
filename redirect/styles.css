@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors Your Name (you@example.org)
+ * @date    2018-12-08 14:13:55
+ * @version $Id$
+ */
+body{
+	background: #09037d;
+    background: linear-gradient(45deg,#09037d,#1c35af 50%,#09037d);
+    background-repeat: no-repeat;
+    max-width: 600px;
+    height: 100vh;
+    margin: auto;
+}
+
+.header {
+	text-align: center;
+	color: white;
+	padding: 10px;
+}
+
+.paragraph {
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.link {
+	display: block;
+	text-align: center;
+	width: 250px;
+	margin: auto;
+	padding: 0 10px 0 10px;
+
+	background: black;
+	color: white;
+	text-decoration: none;
+	border-radius: 20px;
+	padding: 10px;
+	font-size: 20px;
+
+	transition: transform .2s; /* Animation */
+
+	-webkit-box-shadow: 10px 10px 21px -7px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 21px -7px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 21px -7px rgba(0,0,0,0.75);
+}
+
+.link:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
